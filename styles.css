@@ -1,1 +1,62 @@
-/*  your css code here. If applicable */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1.first-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: left;
+}
+
+.middle {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Table 2 Specific Styles */
+#table-2 td {
+    height: 50px;
+}
+
+/* Table 3 Specific Styles */
+.green {
+    background-color: green;
+    height: 20px;
+}
+
+.blue {
+    background-color: blue;
+    height: 20px;
+}
+
+#t-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
